@@ -19,4 +19,8 @@ A Python library that enables **natural language–driven data visualization**, 
 
 ### 🚀 Installation
 ```bash
-pip install VisualizerAI
+pip install VisualizerAIfrom visualizerai import VisualizerAI
+
+viz = VisualizerAI()
+viz.plot("Plot monthly sales data as a red line graph")
+
